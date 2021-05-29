@@ -17,7 +17,8 @@
 	},
 	"require": {
 		"php": ">=7.1",
-		"composer/installers": "~1.0"
+		"composer/installers": "~1.0",
+		"hypejunction/http-parser": "dev-master"
 	},
 	"autoload": {
 		"psr-0": {
