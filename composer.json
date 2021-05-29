@@ -1,0 +1,27 @@
+{
+	"name": "pessek/hypescraper",
+	"type": "elgg-plugin",
+	"description": "Extraction and embedding service",
+	"keywords": [
+		"elgg", "plugin", "extract", "embed"
+	],
+	"license": "proprietary",
+	"authors": [
+		{
+			"name": "Hermand PESSEK",
+			"email": "rhemandaddy@gmail.com"
+		}
+	],
+	"extra": {
+		"installer-name": "hypeScraper"
+	},
+	"require": {
+		"php": ">=7.1",
+		"composer/installers": "~1.0"
+	},
+	"autoload": {
+		"psr-0": {
+			"": "classes/"
+		}
+	}
+}
